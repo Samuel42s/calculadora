@@ -56,7 +56,8 @@ while True:
         print(f'tabuada de: {numero}')
         while contador <= 10:
             resultado = numero * contador
-            print('')
+            print(f'{contador} X {numero} = {resultado}')
+            contador += 1
 
     elif opcao == 7:
         print('                                   ')
