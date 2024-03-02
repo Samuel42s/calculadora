@@ -12,7 +12,8 @@ while True:
     print('             3 - Multiplicação (*) ')
     print('             4 - Divisão (/)       ')
     print('             5 - Potencia (**)     ')
-    print('             6 - Sair              ')
+    print('             6 - tabuada           ')
+    print('             7 - Sair              ')
     print('-----------------------------------')
     print('                                   ')
 
@@ -49,6 +50,16 @@ while True:
         print(resultado)
 
     elif opcao == 6:
+        numero = int(input('digite um numero inteiro: '))
+
+        contador = 1
+        print(f'tabuada de: {numero}')
+        while contador <= 10:
+            resultado = numero * contador
+            print(f'{contador} X {numero} = {resultado}')
+            contador += 1
+
+    elif opcao == 7:
         print('                                   ')
         print('----------- Já vai? :( ------------')
         print('----------- até a proxima ---------')
